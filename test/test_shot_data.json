@@ -1,0 +1,30 @@
+  [{
+      "note": "zero",
+      "cut_in": "0",
+      "cut_out": "10",
+      "file": "Z:/test_scene.ma",
+      "outfile": "Z:/render/test_scene_zero.#.png",
+      "res": ["1280","720"],
+      "step": "1",
+      "active": "false"
+    },
+    {
+      "note": "one",
+      "cut_in": "0",
+      "cut_out": "10",
+      "file": "Z:/test_scene.ma",
+      "outfile": "Z:/render/test_scene_one.#.png",
+      "res": ["1280","720"],
+      "step": "1",
+      "active": "true"
+    },
+    {
+      "note": "two",
+      "cut_in": "0",
+      "cut_out": "10",
+      "file": "Z:/test_scene.ma",
+      "outfile": "Z:/render/test_scene_two.#.png",
+      "res": "1280",
+      "step": "1",
+      "active": "false"
+    }]
