@@ -131,7 +131,8 @@ def get_jobs(make_movie=False, project=False, high_memory=0):
         }
 
     package = {}
-    package['submitType'] = 'vray_cmdline'
+    package['submitType'] = 'cmdline'
+    # package['submitType'] = 'vray_cmdline'
     package['-imgFile'] = frame_path
     package['-imgHeight'] = height
     package['-imgWidth'] = width
