@@ -121,6 +121,10 @@ def get_jobs(make_movie=False, project=False, high_memory=0):
     # needs to be wrapped in QB_CONVERT_PATH()
     vray_job['flags'] = '131072'
 
+    # recommend by shinya to mitigate crashes with the cmdline proxy on ventura
+    vray_job['retrysubjob'] = 3
+    vray_job['retrywork'] = 1
+
     # on osx this is controlled via the vray.sh file which spins these up
     # just in time and then passes any additional flags
     vray_job['env'] = {
